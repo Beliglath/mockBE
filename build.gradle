@@ -72,8 +72,8 @@ configurations {
 }
 
 bootJar {
-    baseName = 'gs-producing-web-service'
-    version =  '0.1.0'
+    baseName = app.name
+    version =  "${app.version}-${app.versionType}"
     from genJaxb.classesDir
 }
 
