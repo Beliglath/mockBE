@@ -1,3 +1,10 @@
+def app=[
+        group: 'com.prismamp.todopago' ,
+        name: 'mockbe' ,
+        version: '0.0.1',
+        versionType: 'SNAPSHOT'
+]
+
 buildscript {
     repositories {
         mavenCentral()
